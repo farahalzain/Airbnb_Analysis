@@ -1,12 +1,12 @@
 # 🏠 Airbnb NYC 2019 - Exploratory Data Analysis
 
-## 📌 Project Overview
+## Project Overview
 This project analyzes the **Airbnb NYC 2019 dataset**, focusing on prices, neighbourhoods, room types, hosts, and availability.  
 Additionally, new insights are derived using distance from the city center.
 
 ---
 
-## 🚀 Features
+## Features
 - Data Cleaning (handling missing values & outliers).
 - Price Analysis by neighbourhood, room type, and distance.
 - Host and Availability Analysis.
@@ -19,7 +19,7 @@ Additionally, new insights are derived using distance from the city center.
 
 ---
 
-## 📊 Insights
+## Insights
 - Manhattan has the highest prices.
 - Staten Island is the cheapest borough.
 - Entire home/apt is significantly more expensive.
@@ -27,7 +27,7 @@ Additionally, new insights are derived using distance from the city center.
 
 ---
 
-## 📈 Visualizations
+## Visualizations
 Key plots include:
 - Price distribution
 - Median prices by neighbourhood group and room type
