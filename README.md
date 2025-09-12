@@ -5,6 +5,19 @@ This project analyzes the **Airbnb NYC 2019 dataset**, focusing on prices, neigh
 Additionally, new insights are derived using distance from the city center.
 
 ---
+## Project Structure
+
+```
+Airbnb_Analysis-eda/
+│── data/                 # Dataset (download and place here)
+│── notebooks/            # Jupyter/Colab notebook with full analysis
+```
+
+----
+## Dataset
+* Source: New York City Airbnb Open Data
+  [Kaggle — New York City Airbnb Open Data](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
+----
 
 ## Features
 - Data Cleaning (handling missing values & outliers).
