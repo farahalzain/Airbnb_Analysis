@@ -1,49 +1,101 @@
-# 🏠 Airbnb NYC 2019 - Exploratory Data Analysis
+# 🏠 Airbnb NYC 2019 Data Analysis Project
 
-## Project Overview
-This project analyzes the **Airbnb NYC 2019 dataset**, focusing on prices, neighbourhoods, room types, hosts, and availability.  
-Additionally, new insights are derived using distance from the city center.
+## Overview
+
+This project focuses on analyzing Airbnb listings data to uncover insights related to pricing, neighborhoods, room types, availability, and customer reviews. The analysis includes data cleaning, preprocessing, exploratory data analysis (EDA), and visualization to better understand trends within the Airbnb market.
 
 ---
+
+## Objectives
+
+* Clean and preprocess Airbnb dataset
+* Handle missing values and outliers
+* Explore pricing patterns and listing distribution
+* Analyze room types and neighborhood trends
+* Create visualizations and dashboards for data storytelling
+
+---
+
+## Tools & Technologies
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* Jupyter Notebook
+* Power BI
+
+---
+
+## Data Cleaning & Preprocessing
+
+The following preprocessing steps were applied:
+
+* Handled missing values in important columns
+* Converted date columns into proper datetime format
+* Removed or treated outliers using IQR techniques
+* Created additional features for analysis
+* Prepared cleaned datasets for Power BI dashboards
+
+---
+
+## Exploratory Data Analysis (EDA)
+
+The analysis explored several key questions, including:
+
+* Which neighborhoods have the highest prices?
+* What room types are most common?
+* How do reviews affect listing popularity?
+* Which areas generate the most activity?
+* What factors influence Airbnb prices?
+
+---
+
+## Visualizations & Dashboards
+
+The project includes:
+
+* Pricing distribution charts
+* Neighborhood comparison visualizations
+* Room type analysis
+* Availability trends
+* Interactive Power BI dashboards
+
+---
+
+## Key Insights
+
+* Manhattan showed the highest average listing prices.
+* Entire homes/apartments were significantly more expensive than shared rooms.
+* Listings with higher review activity tended to attract more bookings.
+* Some neighborhoods had high listing density but lower average prices.
+
+---
+
 ## Project Structure
 
+```bash
+Airbnb-Data-Analysis/
+│
+├── data/
+├── notebooks/
+├── dashboard/
+├── images/
+├── README.md
 ```
-Airbnb_Analysis-eda/
-│── data/                 # Dataset (download and place here)
-│── notebooks/            # Jupyter/Colab notebook with full analysis
-```
-
-----
-## Dataset
-* Source: New York City Airbnb Open Data
-  [Kaggle — New York City Airbnb Open Data](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
-----
-
-## Features
-- Data Cleaning (handling missing values & outliers).
-- Price Analysis by neighbourhood, room type, and distance.
-- Host and Availability Analysis.
-- Custom tasks:
-  1. Median instead of mean for price aggregation.
-  2. Top 10 neighbourhoods by price per room type.
-  3. Analysis restricted to prices < $1000.
-  4. New feature: distance from city center.
-  5. Insights from distance feature.
 
 ---
 
-## Insights
-- Manhattan has the highest prices.
-- Staten Island is the cheapest borough.
-- Entire home/apt is significantly more expensive.
-- Weak negative correlation (-0.15) between price and distance from city center.
+## Skills Demonstrated
+
+* Data Cleaning
+* Exploratory Data Analysis
+* Data Visualization
+* Dashboard Development
+* Feature Engineering
+* Business Insight Extraction
 
 ---
 
-## Visualizations
-Key plots include:
-- Price distribution
-- Median prices by neighbourhood group and room type
-- Distance vs Price scatterplots
 
----
