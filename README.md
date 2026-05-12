@@ -76,7 +76,7 @@ The project includes:
 ## Project Structure
 
 ```bash
-Airbnb-Data-Analysis/
+Airbnb-Analysis/
 │
 ├── data/
 ├── notebooks/
